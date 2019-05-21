@@ -2,6 +2,7 @@
   <div id="app">
     <Header></Header>
     <SideBar></SideBar>
+
     <Footer></Footer>
   </div>
 </template>
@@ -16,25 +17,27 @@ export default {
     SideBar,
     Footer
   }
-}
+};
 </script>
 
 
-<style>
+<style >
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+  background-color: #303030;
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  text-align: center;
+  color: #fff;
 }
 </style>

@@ -4,7 +4,7 @@
             
         </div>
         <div id="copyright">
-            <p>Made with Love by Tiamiyu Abidemi Sikiru 2019. </p>
+            <p>Made with <span id="span"><i class="fas fa-heart"></i></span> by Tiamiyu Sikiru Abidemi 2019.</p>
         </div>
     </div>
 </template>

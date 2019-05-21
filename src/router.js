@@ -19,6 +19,21 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/portfolio",
+      name: "portfolio",
+      component: () => import("./views/Portfolio.vue")
+    },
+    {
+      path: "/skill",
+      name: "skill",
+      component: () => import("./views/Skill.vue")
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: () => import("./views/Contact.vue")
     }
   ]
 });

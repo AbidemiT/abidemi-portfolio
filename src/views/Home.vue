@@ -14,3 +14,11 @@ export default {
   }
 };
 </script>
+
+
+<style scoped>
+  /* .home {
+    width: 100vw;
+    margin-left: 30%;
+  } */
+</style>
