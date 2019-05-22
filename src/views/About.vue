@@ -1,7 +1,6 @@
 <template>
   <div class="about">
     <h1>ABOUT ME</h1>
-    <p>I'm an aspiring FullStack Developer and Front-End developer from Nigeria, residing in Ibadan, Oyo State. i craete beautiful designs and mobile responsive websites</p>
     <p>Born & Raised in Ibadan, Oyo State also an indigene of Abeokuta-North, Ogun State. Graduated from Tai-Solarin University of Education (2016). I enjoy writing code and solving Problems, playing Video Games, surfing the web, writing rap lyrics and listening to music.</p>
     <div id="more-about">
       <img src="@/assets/images/girl.png" alt="Interest Image">
@@ -45,4 +44,11 @@
   margin: 0;
     padding: 5px;
 }
+
+img {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+  }
 </style>

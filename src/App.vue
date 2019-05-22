@@ -1,20 +1,16 @@
 <template>
   <div id="app">
     <Header></Header>
-    <SideBar></SideBar>
-
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import SideBar from "@/components/Sidebar.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
     Header,
-    SideBar,
     Footer
   }
 };
@@ -39,5 +35,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
+}
+
+
+@media (min-width:768px){
+  .about,.home,.portfolio,.skill,.contact {
+  position: absolute;
+  width: 60%;
+  top: 60px;
+  margin-left: 30%;
+}
+
+#more-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#port {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
 }
 </style>
